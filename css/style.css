@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+#youAreHere{
+    color:rgb(113, 193, 207);
+}
+a:active{
+    color:darkblue;
+}
+
+#header{
+    width:100%;
+    height: 10vh;
+    text-align: center;
+    background: rgb(113, 193, 207);
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    position:fixed;
+    top: 0;
+    left:0;
+}
+
+#logo{
+    width: 10vh;
+    height: 10vh;
+    position: absolute;
+    
+    margin-left: 1%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    width: 100%;
+    height:100vh;
+    background-image: url("../img/dubai.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 0;
+    background-attachment:fixed;
+    
+}
+
+#content{
+    width: 70%;
+    height: 850%;
+    background: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-right:15%;
+    opacity: 90%;
+    position: fixed;
+    z-index: 1;
+    
+    
+}
+#content1{
+    position: relative;
+    width: 70%;
+    top: 20vh;
+    z-index: 2;
+    margin-left: 15%;
+    margin-right:15%;
+    padding-bottom: 10vh;
+    
+}
+#content1 h1{
+    text-align: center;
+    
+    margin-bottom: 2%;
+    
+}
+
+#nav{
+    width: 70%;
+    height: 5%;
+    background:rgb(67, 114, 133);
+    opacity: 100%;
+    
+    margin-left: 15%;
+    
+    
+    position: fixed;
+    margin-top: 10vh;
+    z-index: 3;
+    top: 0;
+}
+
+#navDivs{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navDivs div{
+    width: 20%;
+    height:80%;
+    
+    text-align: center;
+    color: white;
+    z-index: 4;
+    
+    font-size: 3vh;
+}
+
+#startPageFig{
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    height: 70%;
+    
+    text-align: center;
+    
+}
+#startPageImg{
+    size: cover;
+    opacity: 100%;
+    width: 100%;
+    
+    height: 100%;
+}
+
+.text{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    margin-bottom: 2%;
+    line-height: 150%;
+    
+}
+.text p{
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+.eventImage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.eventFig{
+    
+    margin-top: 2%;
+    width: 70%;
+    height: 10%;
+   
+}
+.eventFig img{
+    width: 100%;
+    height: 100%;
+    
+}
+.gallery{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    
+    height: 100vh;
+    z-index: 4;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1vh;
+    
+    
+    text-align: center;
+}
+.galleryImages{
+    height: 20vh;
+    width: auto;
+    
+    
+}
+.galleryImages img{
+    object-fit: cover;
+    
+    
+    height: 100%;
+}
+
+#form{
+    border: 1px;
+    border-style: solid;
+    width: 100%;
+    margin-top: 10vh;
+    background: rgb(113, 193, 207);
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+#form input{
+    height: 3vh;
+    margin-left: 2vh;
+}
+#info{
+    width: 30%;
+
+    height: 5vh;
+    margin: 5vh;
+    font-size: 3vh;
+    display:flex;
+    align-items: center;
+}
+#book{
+    height: 5vh;
+    width: 20vh;
+    
+    font-size: 2vh;
+    display:flex;
+    align-items: center;
+    background: #2bfc81;
+    border: none;
+}
+#bookRoom{
+    margin: 0px auto;
+}
+#startImage{
+    object-fit: cover;
+    width: 60%;
+    margin-left: 5%;
+}
+#startImage img{
+    width: 100%;
+}
+#startText{
+    width: 30%;
+    
+    justify-content: center;
+}
+#start{
+    width: 100%;
+    height: 100%;
+    margin-top: 5vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+#hotelButton{
+    width: 30%;
+    
+    height: 5vh;
+   
+    font-size: 3vh;
+    display:flex;
+    align-items: center;
+    
+}
+#visit{
+    height: 5vh;
+    width: 30vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    display:flex;
+    align-items: center;
+    background: #2bfc81;
+    border: none;
+}
+#visitButton{
+    margin: 0px auto;
+}
